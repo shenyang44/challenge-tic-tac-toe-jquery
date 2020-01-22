@@ -1,0 +1,48 @@
+main{
+    margin-top: 50px;
+    box-sizing: border-box;
+    height: 600px;
+    width: 600px;
+    display: flex;
+    flex-wrap: wrap;
+}
+div{
+    box-sizing: border-box;
+    height: 200px;
+    width: 200px;
+    border: 1px solid black;
+    font-size: 5em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+aside{
+    position: absolute;
+    right: 50px;
+    top: 10px;
+    width:600px;
+    height: 600px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+h1{
+    width: 90%;
+    height: 50%;
+    font-size: 3em;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+button{
+    font-weight: bold;
+    font-size: 2em;
+    width: 50%;
+    height: 20%;
+}
+h2{
+    text-align: center;
+    width: 90%;
+    height: 20%;
+}
